@@ -1,3 +1,3 @@
 # RocketDMX
 
-![RocketDMX layout](/images/rocketdmx_rev_A.png)
+![RocketDMX layout](/build/images/rocketdmx_rev_A.png)
