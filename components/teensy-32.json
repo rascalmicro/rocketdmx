@@ -1,0 +1,311 @@
+{
+  "info": {
+    "description": "Teensy 3.2 microcontroller",
+    "manufacturer": "PJRC",
+    "part-number": "W25Q128FVSIG",
+    "suppliers": {
+      "digikey": "W25Q128FVSIG-ND"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "GND":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, 16.51]
+      }
+    },
+  "0":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, 13.97]
+      }
+    },
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, 11.43]
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, 8.89]
+      }
+    },
+  "3":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, 6.35]
+      }
+    },
+  "4":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, 3.81]
+      }
+    },
+  "5":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [-7.62, 1.27]
+      }
+    },
+  "6":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, -1.27]
+      }
+    },
+  "7":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, -3.81]
+      }
+    },
+  "8":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, -6.35]
+      }
+    },
+  "9":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, -8.89]
+      }
+    },
+  "10":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, -11.43]
+      }
+    },
+  "11":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-7.62, -13.97]
+      }
+    },
+  "12":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [-7.62, -16.51]
+      }
+    },
+  "VIN":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, 16.51]
+      }
+    },
+  "AGND":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, 13.97]
+      }
+    },
+  "3V3":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, 11.43]
+      }
+    },
+  "23":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, 8.89]
+      }
+    },
+  "22":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, 6.35]
+      }
+    },
+  "21":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, 3.81]
+      }
+    },
+  "20":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [7.62, 1.27]
+      }
+    },
+  "19":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, -1.27]
+      }
+    },
+  "18":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, -3.81]
+      }
+    },
+  "17":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, -6.35]
+      }
+    },
+  "16":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, -8.89]
+      }
+    },
+  "15":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, -11.43]
+      }
+    },
+  "14":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [7.62, -13.97]
+      }
+    },
+  "13":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [7.62, -16.51]
+      }
+    },
+  "DAC":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [5.08, -16.51]
+      }
+    },
+  "PGM":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [2.54, -16.51]
+      }
+    },
+  "GNDB":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [0, -16.51]
+      }
+    },
+  "3V3B":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [-2.54, -16.51]
+      }
+    },
+  "VBAT":
+    { 
+      "layout": 
+      {
+        "pad": "hole",
+        "location": [-5.08, -16.51]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 18,
+          "height": 35,
+          "location": [0, 0]
+        }
+      ]
+    }
+  },
+  "pads": {
+    "hole": {
+      "shapes": [
+        {
+          "type": "circle",
+          "layers": ["top", "bottom"],
+          "outline": 0,
+          "diameter": 1.9,
+          "offset": [0, 0]
+        }
+      ],
+      "drills": [
+        {
+          "diameter": 1
+        }
+      ]
+    }
+  }
+}

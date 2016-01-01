@@ -1,0 +1,94 @@
+{
+  "info": {
+    "description": "XLR receptacle, female, 3-pin, horizontal PCB-mount",
+    "manufacturer": "Neutrik",
+    "part-number": "NC3FAH1",
+    "suppliers": {
+      "newark": "46WX3053",
+      "mouser": "568-NC3FAH1"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-3.81, -12.7]
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [3.81, -13.335]
+      }
+    },
+  "3":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [0, -17.15]
+      }
+    },
+  "A":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-3.81, -3.81]
+      }
+    },
+  "B":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [3.81, -8.89]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 25.0,
+          "height": 2.7,
+          "location": [0, 1.35]
+        },
+        {
+          "type": "rect",
+          "width": 20.0,
+          "height": 19.5,
+          "location": [0, -9.75]
+        }
+      ]
+    }
+  },
+  "pads": {
+    "hole": {
+      "shapes": [
+        {
+          "type": "circle",
+          "layers": ["top", "bottom"],
+          "outline": 0,
+          "diameter": 2.2,
+          "offset": [0, 0]
+        }
+      ],
+      "drills": [
+        {
+          "diameter": 1.6
+        }
+      ]
+    }
+  }
+}

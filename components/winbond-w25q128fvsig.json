@@ -1,0 +1,114 @@
+{
+  "info": {
+    "description": "16 MB SPI flash, 3.3 V supply, SOIC-8",
+    "manufacturer": "Winbond",
+    "part-number": "W25Q128FVSIG",
+    "suppliers": {
+      "digikey": "W25Q128FVSIG-ND"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-3.625, 1.905]
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-3.625, 0.635]
+      }
+    },
+  "3":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-3.625, -0.635]
+      }
+    },
+  "4":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-3.625, -1.905]
+      }
+    },
+  "5":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [3.625, -1.905]
+      }
+    },
+  "6":
+    { 
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [3.625, -0.635]
+      }
+    },
+  "7":
+    { 
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [3.625, 0.635]
+      }
+    },
+  "8":
+    { 
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [3.625, 1.905]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 5.28,
+          "height": 5.28,
+          "location": [0, 0]
+        }
+      ]
+    }
+  },
+  "pads":
+  {
+    "pad":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "outline": 0,
+          "width": 1.0,
+          "height": 0.45,
+          "radii": {
+            "bl": 0.05, 
+            "br": 0.05, 
+            "tl": 0.05, 
+            "tr": 0.05
+          }
+        }
+      ]
+    }
+  }
+}

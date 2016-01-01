@@ -1,0 +1,215 @@
+{
+  "components": {
+    "U1": {
+      "footprint": "winbond-w25q128fvsig", 
+      "layer": "top", 
+      "location": [
+        0, 
+        25.0
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            3.0, 
+            3.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": false, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "U2": {
+      "footprint": "teensy-32", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            5.0, 
+            10.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": false, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "U3": {
+      "footprint": "maxim-max3072eesa", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -25.0
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            5.0, 
+            10.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": false, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    },
+    "J1": {
+      "footprint": "neutrik-nc3fah1", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -50.0
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            5.0, 
+            10.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": false, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "mlayer-test", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "A", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.25, 
+      "pad": 0.3, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        33.362127, 
+        3.462848
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Name: rocketdmx \nRevision: 0.1\nDescription: Microcontroller that spews DMX into space \nLicense: Creative Commons BY-SA\nCompany: Rascal Micro\nDesigner: Brandon Stafford, brandon@rascalmicro.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        32.487987, 
+        -9.7320392
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimeter\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top (white), bottom (white)\nSoldermask: top (red), bottom (red)\nSurface finish: ENIG (lead free)"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        27.937957, 
+        -19.628251
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, open source software\n     https://github.com/boldport/pcbmode"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      16.507051, 
+      -23.433616
+    ]
+  }, 
+  "files": {
+    "routing-data": "mlayer-test_routing.json", 
+    "routing-svg": "mlayer.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "outline": {
+    "measurements": {
+      "font-family": "UbuntuMono-R-webfont", 
+      "scale": 0.0008
+    }, 
+    "shape": {
+      "type": "path", 
+      "value": "m -7.3071933,49.965055 c 0,0 -3.8239497,-55.5849862 -3.7636877,-59.8311931 0.05248,-3.6981459 1.8828613,-29.2009879 11.1054275,-29.2324789 9.0006461,-0.03073 11.0583245,24.327464 11.0311485,29.6079722 -0.04714,9.16018788 -4.6630572,59.0334388 -4.6630572,59.0334388"
+    }
+  }, 
+  "shapes": {
+    "TXT1": {
+      "footprint": "text", 
+      "layer": "top", 
+      "location": [
+        0, 
+        2.8
+      ], 
+      "show": true
+    }
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}

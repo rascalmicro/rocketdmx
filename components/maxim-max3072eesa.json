@@ -1,0 +1,115 @@
+{
+  "info": {
+    "description": "RS-485 transceiver, 3.3 V supply, SOIC-8",
+    "manufacturer": "Maxim",
+    "part-number": "MAX3072EESA+",
+    "suppliers": {
+      "digikey": "MAX3072EESA+-ND",
+      "mouser": "700-MAX3072EESA"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-2.950, 1.905]
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-2.950, 0.635]
+      }
+    },
+  "3":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-2.950, -0.635]
+      }
+    },
+  "4":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [-2.950, -1.905]
+      }
+    },
+  "5":
+    {	
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [2.950, -1.905]
+      }
+    },
+  "6":
+    { 
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [2.950, -0.635]
+      }
+    },
+  "7":
+    { 
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [2.950, 0.635]
+      }
+    },
+  "8":
+    { 
+      "layout": 
+      {
+        "pad": "pad", 
+        "location": [2.950, 1.905]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 4.90,
+          "height": 3.90,
+          "location": [0, 0]
+        }
+      ]
+    }
+  },
+  "pads":
+  {
+    "pad":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "outline": 0,
+          "width": 1.0,
+          "height": 0.45,
+          "radii": {
+            "bl": 0.05, 
+            "br": 0.05, 
+            "tl": 0.05, 
+            "tr": 0.05
+          }
+        }
+      ]
+    }
+  }
+}
