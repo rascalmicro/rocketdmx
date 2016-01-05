@@ -228,8 +228,8 @@
       "letter-spacing": "0mm", 
       "line-height": "1.5mm", 
       "location": [
-        33.362127, 
-        3.462848
+        42.393241, 
+        14.751745
       ], 
       "rotate": 0, 
       "style": "fill", 
@@ -242,8 +242,8 @@
       "letter-spacing": "0mm", 
       "line-height": "1.5mm", 
       "location": [
-        32.487987, 
-        -9.7320392
+        41.519101, 
+        1.5568505
       ], 
       "rotate": 0, 
       "style": "fill", 
@@ -256,8 +256,8 @@
       "letter-spacing": "0mm", 
       "line-height": "1.2mm", 
       "location": [
-        27.937957, 
-        -19.628251
+        36.969071, 
+        -8.3393629
       ], 
       "rotate": 0, 
       "style": "fill", 
@@ -267,8 +267,8 @@
   }, 
   "drill-index": {
     "location": [
-      16.507051, 
-      -23.433616
+      25.538165, 
+      -12.144727
     ]
   }, 
   "files": {
