@@ -1,0 +1,89 @@
+{
+  "info": {
+    "description": "Microfit 3.0 latching receptacle, 3-pin, horizontal PCB-mount",
+    "manufacturer": "Molex",
+    "part-number": "0436500300",
+    "suppliers": {
+      "newark": "57H0320",
+      "mouser": "538-43650-0300",
+      "digikey": "WM1861-ND"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-3.0, 4.32]
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [3.0, 4.32]
+      }
+    },
+  "3":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [0, 4.32]
+      }
+    },
+  "M":
+    { 
+      "layout": 
+      {
+        "pad": "bighole", 
+        "location": [0, 0]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 12.65,
+          "height": 9.9,
+          "location": [0, 0.35]
+        }
+      ]
+    }
+  },
+  "pads": {
+    "hole": {
+      "shapes": [
+        {
+          "type": "circle",
+          "layers": ["top", "bottom"],
+          "outline": 0,
+          "diameter": 2.0,
+          "offset": [0, 0]
+        }
+      ],
+      "drills": [
+        {
+          "diameter": 1.07
+        }
+      ]
+    },
+    "bighole": {
+      "drills": [
+        {
+          "diameter": 3.0
+        }
+      ]
+    }
+
+  }
+}
