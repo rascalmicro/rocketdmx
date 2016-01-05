@@ -120,6 +120,54 @@
         }
       }
     }, 
+    "P1": {
+      "footprint": "molex-0197134001", 
+      "layer": "top", 
+      "location": [
+        -20, 
+        -30.0
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            8.0, 
+            -2.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": false, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "P2": {
+      "footprint": "molex-0197134001", 
+      "layer": "top", 
+      "location": [
+        20, 
+        -30.0
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            8.0, 
+            2.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": false, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
     "U1": {
       "footprint": "winbond-w25q128fvsig", 
       "layer": "top", 

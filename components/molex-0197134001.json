@@ -1,0 +1,63 @@
+{
+  "info": {
+    "description": "flag terminal, 6.35 mm",
+    "manufacturer": "Molex",
+    "part-number": "0197134001",
+    "suppliers": {
+      "digikey": "WM7391-ND"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [0.0, 0.0]
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [5.08, 0.0]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 20.1,
+          "height": 0.813,
+          "location": [9.5, 0.0]
+        }
+      ]
+    }
+  },
+  "pads": {
+    "hole": {
+      "shapes": [
+        {
+          "type": "circle",
+          "layers": ["top", "bottom"],
+          "outline": 0,
+          "diameter": 2.5,
+          "offset": [0, 0]
+        }
+      ],
+      "drills": [
+        {
+          "diameter": 1.32
+        }
+      ]
+    }
+  }
+}
