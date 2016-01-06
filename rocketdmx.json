@@ -12,8 +12,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            5.0, 
-            10.0
+            -11.159343, 
+            -18.633752
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -36,8 +36,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            7.5, 
-            1.0
+            7.455757, 
+            -0.26961
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -60,8 +60,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            -8.0, 
-            0
+            -7.305299, 
+            -2.114307
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -84,8 +84,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            -7.5, 
-            1.0
+            -7.42466, 
+            -0.708291
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -108,8 +108,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            8.0, 
-            0
+            7.365708, 
+            -2.355942
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -132,8 +132,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            8.0, 
-            -2.0
+            -2.390307, 
+            0.023693
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -156,8 +156,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            8.0, 
-            2.0
+            -2.511124, 
+            -0.023693
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -228,8 +228,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            5.0, 
-            10.0
+            -0.013926, 
+            3.264424
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
