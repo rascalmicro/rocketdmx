@@ -29,11 +29,11 @@
           ], 
           "letter-spacing": "0mm", 
           "line-height": "2.0mm", 
-          "rotate": 0, 
+          "rotate": 90, 
           "style": "fill", 
           "type": "text", 
-          "value": "top layer",
-          "location": [0,0.5]
+          "value": "rascalmicro.com",
+          "location": [-22,-45]
         },
         {
           "buffer-to-pour": 0.1, 
@@ -44,12 +44,60 @@
           ], 
           "letter-spacing": "0mm", 
           "line-height": "2.0mm", 
-          "rotate": 0, 
-          "style": "fill",
+          "rotate": 90, 
+          "style": "fill", 
           "mirror": true, 
           "type": "text", 
-          "value": "bottom layer",
-          "location": [0,-0.5],
+          "value": "RocketDMX 1.0, 2016-01-07",
+          "location": [4, -3]
+        },
+        {
+          "buffer-to-pour": 0.1, 
+          "font-family": "Overlock-Regular-OTF-webfont", 
+          "font-size": "2.0mm", 
+          "layers": [
+            "top"
+          ], 
+          "letter-spacing": "0mm", 
+          "line-height": "2.0mm", 
+          "rotate": 90, 
+          "style": "fill", 
+          "mirror": false, 
+          "type": "text", 
+          "value": "+5V",
+          "location": [17, -33]
+        },
+        {
+          "buffer-to-pour": 0.1, 
+          "font-family": "Overlock-Regular-OTF-webfont", 
+          "font-size": "2.0mm", 
+          "layers": [
+            "top"
+          ], 
+          "letter-spacing": "0mm", 
+          "line-height": "2.0mm", 
+          "rotate": 90, 
+          "style": "fill",
+          "mirror": false,
+          "type": "text", 
+          "value": "GND",
+          "location": [-17, -33]
+        },
+        {
+          "buffer-to-pour": 0.1, 
+          "font-family": "Overlock-Regular-OTF-webfont", 
+          "font-size": "2.0mm", 
+          "layers": [
+            "bottom"
+          ], 
+          "letter-spacing": "0mm", 
+          "line-height": "2.0mm", 
+          "rotate": 90, 
+          "style": "fill",
+          "mirror": false, 
+          "type": "text", 
+          "value": "rascalmicro.com",
+          "location": [5.5, -3],
           "soldermask": {}
         }
       ]

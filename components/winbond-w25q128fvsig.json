@@ -15,7 +15,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [-3.625, 1.905]
+        "location": [-3.75, 1.905]
       }
     },
   "2":
@@ -23,7 +23,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [-3.625, 0.635]
+        "location": [-3.75, 0.635]
       }
     },
   "3":
@@ -31,7 +31,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [-3.625, -0.635]
+        "location": [-3.75, -0.635]
       }
     },
   "4":
@@ -39,7 +39,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [-3.625, -1.905]
+        "location": [-3.75, -1.905]
       }
     },
   "5":
@@ -47,7 +47,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [3.625, -1.905]
+        "location": [3.75, -1.905]
       }
     },
   "6":
@@ -55,7 +55,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [3.625, -0.635]
+        "location": [3.75, -0.635]
       }
     },
   "7":
@@ -63,7 +63,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [3.625, 0.635]
+        "location": [3.75, 0.635]
       }
     },
   "8":
@@ -71,7 +71,7 @@
       "layout": 
       {
         "pad": "pad", 
-        "location": [3.625, 1.905]
+        "location": [3.75, 1.905]
       }
     }
   },
@@ -86,6 +86,12 @@
           "width": 5.28,
           "height": 5.28,
           "location": [0, 0]
+        },
+        {
+          "type": "circle",
+          "diameter": 0.75,
+          "location": [-2.5, 3.5],
+          "style": "fill"
         }
       ]
     }
@@ -99,8 +105,8 @@
         {
           "type": "rect",
           "outline": 0,
-          "width": 1.0,
-          "height": 0.45,
+          "width": 1.2,
+          "height": 0.5,
           "radii": {
             "bl": 0.05, 
             "br": 0.05, 
