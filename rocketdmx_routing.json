@@ -234,12 +234,12 @@
     }
   }, 
   "vias": {
-    "04b808324": {
+    "1e3f30a6e": {
       "footprint": "via", 
       "layer": "top", 
       "location": [
-        3.255978, 
-        22.641135
+        -5.948359, 
+        19.201318
       ]
     }, 
     "2f3821fb2": {
@@ -266,20 +266,20 @@
         13.809689
       ]
     }, 
-    "82e6b1973": {
-      "footprint": "via", 
-      "layer": "top", 
-      "location": [
-        -5.948359, 
-        19.201318
-      ]
-    }, 
     "859d8e6ee": {
       "footprint": "via", 
       "layer": "top", 
       "location": [
         -6.409621, 
         17.791514
+      ]
+    }, 
+    "c1fae4a17": {
+      "footprint": "via", 
+      "layer": "top", 
+      "location": [
+        3.255978, 
+        22.641135
       ]
     }, 
     "e8dc0ec9e": {

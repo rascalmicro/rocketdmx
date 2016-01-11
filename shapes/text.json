@@ -13,11 +13,7 @@
   },
   "layout":
   {
-  },
-  "pads":
-  {
-    "text":
-    {
+    "silkscreen": {
       "shapes":
       [
         {
@@ -101,6 +97,10 @@
           "soldermask": {}
         }
       ]
+    }
+  },
+  "pads": {
+    "text": {
     }
   }
 }
