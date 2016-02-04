@@ -11,6 +11,11 @@
 
 #include <DmxSimple.h>
 
+int SENSOR_ONE = 16;
+int SENSOR_TWO = 17;
+int SENSOR_THREE = 18;
+int SENSOR_FOUR = 19;
+
 void setup() {
   /* The most common pin for DMX output is pin 3, which DmxSimple
   ** uses by default. If you need to change that, do it here. */
@@ -22,20 +27,30 @@ void setup() {
   ** do this, DmxSimple will set the maximum channel number to the
   ** highest channel you DmxSimple.write() to. */
   DmxSimple.maxChannel(18);
+  pinMode(SENSOR_ONE, INPUT);
+  pinMode(SENSOR_TWO, INPUT);
+  pinMode(SENSOR_THREE, INPUT);
+  pinMode(SENSOR_FOUR, INPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
-  int brightness;
+  int brightness = 125;
+  int count;
   /* Simple loop to ramp up brightness */
-  for (brightness = 0; brightness <= 255; brightness++) {
-    
-    /* Update DMX channel 1 to new brightness */
-    DmxSimple.write(4, brightness);
-    DmxSimple.write(5, brightness + 80);
-    DmxSimple.write(6, brightness + 160);
-
+  for (count = 0; count <= 255; count++) {
+    if(digitalRead(SENSOR_ONE) || digitalRead(SENSOR_TWO) || digitalRead(SENSOR_THREE) || digitalRead(SENSOR_FOUR)) {
+        Serial.println("Motion detected");
+        DmxSimple.write(4, brightness + 110);
+        DmxSimple.write(5, brightness + 110);
+        DmxSimple.write(6, brightness);
+    } else {
+        Serial.println("xxxxxxx");
+        DmxSimple.write(4, brightness);
+        DmxSimple.write(5, brightness + 110);
+        DmxSimple.write(6, brightness + 110);
+    }
     /* Small delay to slow down the ramping */
-    delay(10);
+    delay(50);
   }
-
 }
