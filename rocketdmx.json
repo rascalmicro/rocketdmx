@@ -97,7 +97,7 @@
       }
     }, 
     "J2": {
-      "footprint": "molex-0436500300", 
+      "footprint": "onshore-ostvn03a150",
       "layer": "top", 
       "location": [
         7, 
@@ -121,7 +121,7 @@
       }
     }, 
     "J3": {
-      "footprint": "molex-0436500300", 
+      "footprint": "onshore-ostvn03a150",
       "layer": "top", 
       "location": [
         8, 
@@ -145,7 +145,7 @@
       }
     }, 
     "J4": {
-      "footprint": "molex-0436500300", 
+      "footprint": "onshore-ostvn03a150",
       "layer": "top", 
       "location": [
         -7, 
@@ -169,7 +169,7 @@
       }
     }, 
     "J5": {
-      "footprint": "molex-0436500300", 
+      "footprint": "onshore-ostvn03a150",
       "layer": "top", 
       "location": [
         -8, 
@@ -402,7 +402,7 @@
       "rotate": 0, 
       "style": "fill", 
       "type": "text", 
-      "value": "Name: rocketdmx \nRevision: 0.1\nDescription: Microcontroller that spews DMX into space \nLicense: Creative Commons BY-SA\nCompany: Rascal Micro\nDesigner: Brandon Stafford, brandon@rascalmicro.com"
+      "value": "Name: rocketdmx \nRevision: 1.1\nDescription: Microcontroller that spews DMX into space \nLicense: Creative Commons BY-SA\nCompany: Rascal Micro\nDesigner: Brandon Stafford, brandon@rascalmicro.com"
     }, 
     "manufacturing": {
       "font-family": "Overlock-Regular-OTF-webfont", 

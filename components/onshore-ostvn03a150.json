@@ -1,0 +1,71 @@
+{
+  "info": {
+    "description": "Terminal block, screw terminal, 3-pin, 2.54 mm pitch, horizontal entry, PCB-mount",
+    "manufacturer": "On Shore Technology",
+    "part-number": "OSTVN03A150",
+    "suppliers": {
+      "digikey": "ED10562-ND"
+    },
+    "notes": ""
+  },
+  "pins":
+  {
+  "1":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [-2.54, 0]
+      }
+    },
+  "2":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [0, 0]
+      }
+    },
+  "3":
+    { 
+      "layout": 
+      {
+        "pad": "hole", 
+        "location": [2.54, 0]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "type": "rect",
+          "width": 8.02,
+          "height": 6.6,
+          "location": [0, 0]
+        }
+      ]
+    }
+  },
+  "pads": {
+    "hole": {
+      "shapes": [
+        {
+          "type": "circle",
+          "layers": ["top", "bottom"],
+          "outline": 0,
+          "diameter": 2.0,
+          "offset": [0, 0]
+        }
+      ],
+      "drills": [
+        {
+          "diameter": 1.30
+        }
+      ]
+    }
+  }
+}
