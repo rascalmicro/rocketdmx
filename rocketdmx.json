@@ -97,19 +97,19 @@
       }
     }, 
     "J2": {
-      "footprint": "onshore-ostvn03a150",
+      "footprint": "onshore-ostvn03a150", 
       "layer": "top", 
       "location": [
-        7, 
+        5.5, 
         45.0
       ], 
-      "rotate": -110, 
+      "rotate": -103, 
       "show": true, 
       "silkscreen": {
         "refdef": {
           "location": [
-            7.455757, 
-            -0.26961
+            5.198437, 
+            -1.949607
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -121,10 +121,10 @@
       }
     }, 
     "J3": {
-      "footprint": "onshore-ostvn03a150",
+      "footprint": "onshore-ostvn03a150", 
       "layer": "top", 
       "location": [
-        8, 
+        7.4, 
         30.0
       ], 
       "rotate": -90, 
@@ -132,8 +132,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            -7.305299, 
-            -2.114307
+            -5.189953, 
+            -1.556091
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -145,19 +145,19 @@
       }
     }, 
     "J4": {
-      "footprint": "onshore-ostvn03a150",
+      "footprint": "onshore-ostvn03a150", 
       "layer": "top", 
       "location": [
-        -7, 
+        -5.5, 
         45.0
       ], 
-      "rotate": 110, 
+      "rotate": 103, 
       "show": true, 
       "silkscreen": {
         "refdef": {
           "location": [
-            -7.42466, 
-            -0.708291
+            -5.233467, 
+            -1.710045
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 
@@ -169,10 +169,10 @@
       }
     }, 
     "J5": {
-      "footprint": "onshore-ostvn03a150",
+      "footprint": "onshore-ostvn03a150", 
       "layer": "top", 
       "location": [
-        -8, 
+        -7.4, 
         30.0
       ], 
       "rotate": 90, 
@@ -180,8 +180,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            7.365708, 
-            -2.355942
+            5.191603, 
+            -2.326562
           ], 
           "rotate": 0, 
           "rotate-with-component": false, 

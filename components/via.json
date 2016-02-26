@@ -16,13 +16,13 @@
     {
       "shapes":
       [
-	{
+      	{
           "type": "circle",
-	  "layer": ["top", "bottom"],
-	  "style": "fill",
-          "diameter": 0.7,
-          "buffer-to-pour": 0.2, 
-          "soldermask": {}
+      	  "layers": ["top", "bottom"],
+      	  "style": "fill",
+                "diameter": 0.7,
+                "buffer-to-pour": 0.2, 
+                "soldermask": {}
         }
       ],
       "drills":
